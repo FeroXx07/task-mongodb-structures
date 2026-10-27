@@ -51,18 +51,18 @@ El nostre sistema haurà d’indicar qui ha sigut l’empleat/da que ha venut ca
 
             // Execute the script from inside the mongodb shell
             // Use '/' or '\\' directory delimiter instead of '\'.
-            mongosh load('C:/Users/YourName/Desktop/create.js')
+            load('C:/Users/YourName/Desktop/create.js')
 
-            mongosh load('C:\\Users\\YourName\\Desktop\\populate.js')
+            load('C:\\Users\\YourName\\Desktop\\populate.js')
 
             // Change to desired database (eg: pizza)
-            mongosh use pizza
+            use pizza
 
             // To verify single collection and its validator
-            mongosh db.getCollectionInfos({ name: "clients" }, true)
+            db.getCollectionInfos({ name: "clients" }, true)
 
             // To verify all collections and its validators
-            mongosh db.getCollectionInfos().forEach(c => {
+            db.getCollectionInfos().forEach(c => {
                 print("Collection: " + c.name);
                 printjson(c.options?.validator);
             });

@@ -1475,7 +1475,7 @@
 			"minor": 7,
 			"extra": 0
 		},
-		"writeFileParam": false,
+		"writeFileParam": true,
 		"authorName": "",
 		"companyDetails": "",
 		"companyUrl": "",
