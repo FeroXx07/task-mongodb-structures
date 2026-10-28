@@ -6,6 +6,6 @@
 - mongodb -mongodb compass -moon modeler
 
 ## 🚀 Instal·lació i Execució
-1. Clonar el repositori: `git clone ...`   
+1. Clonar el repositori: `git clone https://github.com/FeroXx07/task-mongodb-structures.git`   
 2. Visualitzar el diagrama
 3. Instruccions per executar a cada README.md del nivel

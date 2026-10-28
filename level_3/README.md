@@ -30,7 +30,7 @@ Tractarem de fer un model senzill de com seria la base de dades per a una versi�
 - mongodb -mongodb compass -moon modeler
 
 ## 🚀 Instal·lació i Execució
-1. Clonar el repositori: `git clone ...`   
+1. Clonar el repositori: `git clone https://github.com/FeroXx07/task-mongodb-structures.git`   
 2. Visualitzar el diagrama
 3. Variables d'entorn: Crear `.env` amb...  
 -   MONGO_ROOT_USERNAME: mongodb_root

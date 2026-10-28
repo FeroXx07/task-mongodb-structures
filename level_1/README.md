@@ -18,7 +18,7 @@ El nostre sistema haurà d’indicar qui ha sigut l’empleat/da que ha venut ca
 - mongodb -mongodb compass -moon modeler
 
 ## 🚀 Instal·lació i Execució
-1. Clonar el repositori: `git clone ...`   
+1. Clonar el repositori: `git clone https://github.com/FeroXx07/task-mongodb-structures.git`   
 2. Visualitzar el diagrama
 3. Variables d'entorn: Crear `.env` amb...  
 -   MONGO_ROOT_USERNAME: mongodb_root
